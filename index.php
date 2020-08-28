@@ -12,10 +12,9 @@
 	<div class= "playArea">
 		<h1 class = "registerLable">Register to Play</h1>
 		<form id = "form" action="playGame.php" method="post">
-			FULL NAME: <input id = "info" class = "info" type="text" name= "name" placeholder = "Your Name"><br>
-			USERNAME: <input class = "info" type="text" name= "username" placeholder = "Username"><br>
-			E-MAIL: <input class = "info" type="email" name= "email" placeholder = "Your E-Mail"><br>
-			PASSWORD: <input class = "info" type="password" name= "password" placeholder = "Your Password"><br>
+			<input id = "info" class = "info" type="text" name= "name" placeholder = "Your Name"><br>
+			<input class = "info" type="text" name= "username" placeholder = "Username"><br>
+			<input class = "info" type="password" name= "password" placeholder = "Your Password"><br>
 			<button id = "registerBtn" class = "mx-auto btn btn-primary btn-lg" type = "submit">Register</button> <br> Already a member? <a href="login.php">Login</a>
 		</form>
 	</div>

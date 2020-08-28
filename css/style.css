@@ -38,9 +38,10 @@ body {
   color: rgb(244, 184, 6);
 }
 #form {
-  width: 600px;
+  /* width: 600px; */
   border-radius: 5%;
-  background-color: #c84922;
+  background-color: #42685000;
+  color: #fff;
   font-weight: 600;
   margin: 150px auto 0;
   padding: 20px 0;
